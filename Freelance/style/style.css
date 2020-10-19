@@ -1,0 +1,420 @@
+@import "fonts.css";
+
+/* ROOT START */
+/* -================================ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "OS";
+    list-style: none;
+    text-decoration: none;
+    /* outline: 1px solid red; */
+}
+
+
+:root {
+    --grey: #9aa0ab;
+    --red: #fa5c65;
+    --nav_link-color: #263742;
+    --dark-blue: #314a5b;
+    --white: #fff;
+    --order_title-color: #465065;
+    --footer_lign: #e6eaed;
+
+    --col-1: calc(100%/12);
+    --col-2: calc(100%/12*2);
+    --col-3: calc(100%/12*3);
+    --col-4: calc(100%/12*4);
+    --col-5: calc(100%/12*5);
+    --col-6: calc(100%/12*6);
+    --col-7: calc(100%/12*7);
+    --col-8: calc(100%/12*8);
+    --col-9: calc(100%/12*9);
+    --col-10: calc(100%/12*10);
+    --col-11: calc(100%/12*11);
+    --col-12: 100%;
+}
+
+.col-1 {
+    width: var(--col-1);
+    padding: 0 15px;
+}
+
+.col-2 {
+    width: var(--col-2);
+    padding: 0 15px;
+}
+
+.col-3 {
+    width: var(--col-3);
+    padding: 0 15px;
+}
+
+.col-4 {
+    width: var(--col-4);
+    padding: 0 15px;
+}
+
+.col-5 {
+    width: var(--col-5);
+    padding: 0 15px;
+}
+
+.col-6 {
+    width: var(--col-6);
+    padding: 0 15px;
+}
+
+.col-7 {
+    width: var(--col-7);
+    padding: 0 15px;
+}
+
+.col-8 {
+    width: var(--col-8);
+    padding: 0 15px;
+}
+
+.col-9 {
+    width: var(--col-9);
+    padding: 0 15px;
+}
+
+.col-10 {
+    width: var(--col-10);
+    padding: 0 15px;
+}
+
+.col-11 {
+    width: var(--col-11);
+    padding: 0 15px;
+}
+
+.col-12 {
+    width: var(--col-12);
+    padding: 0 15px;
+}
+
+.container {
+    max-width: 970px;
+    width: 100%;
+    padding: 0 15px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-start {
+    justify-content: start;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-start {
+    align-items: start;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.mh-100 {
+    min-height: 100vh;
+}
+
+.fa-twitter {
+    color: green;
+}
+
+
+/* ROOT START */
+/* -================================ */
+
+
+.fa-twitter {
+    color: var(--red);
+}
+
+.fa-facebook-f {
+    color: var(--red);
+}
+
+/* HEADER START */
+/* ======================== */
+
+.header-nav__link {
+    font-size: 14px;
+    margin-left: 35px;
+    text-transform: uppercase;
+    font-family: "Mon-R";
+    color: var(--nav_link-color);
+}
+
+
+
+
+.header__title {
+    text-transform: uppercase;
+    color: var(--dark-blue);
+    font-size: 48px;
+    font-family: "Mon-B";
+    line-height: 53px;
+}
+
+.dot {
+    font-size: 48px;
+    color: var(--red);
+}
+
+.header__subtitle {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--dark-blue);
+    line-height: 43px;
+    margin-bottom: 30px;
+}
+
+.header__btn {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--white);
+    padding: 10px 42px 6px 42px;
+    background: var(--red);
+    line-height: 48px;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+
+header {
+    background: url(../img/header-bg.jpg) no-repeat center top /cover;
+}
+ 
+
+
+
+/* HEADER END */
+/* ======================== */
+
+
+
+
+
+
+/* ORDER START */
+/* ======================== */
+
+.orders__card {
+    margin-right: 20px;
+}
+
+.orders__card:last-of-type {
+    margin-right: 0;
+}
+
+.order__title {
+    text-transform: uppercase;
+    font-family: "Mon-B";
+    font-size: 26px;
+    line-height: 26px;
+    color: var(--order_title-color);
+    margin-bottom: 18px;
+}
+
+.order__info {
+    color: var(--grey);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 25px;
+}
+
+.more {
+    font-family: "Mon-R";
+    color: var(--red);
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+.fa-long-arrow-right {
+    color: var(--red);
+    margin-left: 7px;
+}
+
+.order {
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+
+
+
+
+
+/* ORDER END */
+/* ======================== */
+
+
+
+/* PORT START */
+/* ======================== */
+
+.port__title {
+    font-family: "Mon-B";
+    color: var(--dark-blue);
+    font-size: 40px;
+    line-height: 46px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.port__subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--dark-blue);
+    line-height: 20px;
+    margin-bottom: 25px;
+}
+
+.port__info {
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--grey);
+    line-height: 22px;
+    margin-bottom: 25px;
+}
+
+.port__more {
+    display: flex;
+    margin-top: 15px;
+}
+
+
+
+
+
+/* PORT END */
+/* ======================== */
+/* TEAM START */
+/* ======================== */
+
+.team__img {
+    width: 128px;
+    height: 128px;
+    object-fit: cover;
+}
+
+.team__card-title {
+    font-family: "Mon-B";
+    font-size: 22px;
+    color: var(--dark-blue);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.team__card-subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--red);
+    margin-bottom: 10px;
+}
+
+.team__card-info {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--grey);
+    line-height: 20px;
+}
+
+.team__info {
+    margin-left: 20px;
+}
+
+.team__title {
+    font-size: 32px;
+    font-family: "Mon-B";
+    line-height: 50px;
+    color: var(--dark-blue);
+    text-transform: uppercase;
+}
+
+.team__subtitle {
+    font-size: 16px;
+    color: var(--grey);
+    line-height: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.team__more {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 55px;
+}
+
+.team__item::after {
+    content: '';
+    display: block;
+    height: 1px;
+    background: var(--footer_lign);
+    margin-top: 60px;
+}
+
+
+/* TEAM END */
+/* ======================== */
+
+
+
+
+/* FOOTER START */
+/* ======================== */
+
+.footer__icon {
+    font-size: 20px;
+    margin-right: 25px;
+    color: var(--grey);
+}
+
+.footer__info {
+    font-size: 16px;
+    color: var(--grey);
+    font-weight: 400;
+}
+
+.footer {
+    padding: 30px 0 40px 0;
+}
+
+/* FOOTER END */
+/* ======================== */
+
+
+

@@ -1,0 +1,135 @@
+@media(max-width: 1300px) {
+    .mywork__img>img {
+        flex-grow: 0;
+        width: 50%;
+    }
+
+    .mywork__title>p {
+        padding: 0;
+    }
+
+    .contactme>h2 {
+        font-size: 35px;
+    }
+
+    .contactme>p {
+        padding: 0;
+    }
+
+}
+
+@media(max-width: 1050px) {
+    .services__cards {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .services__content {
+        padding: 0;
+    }
+
+    .services__title {
+        margin-left: 0;
+    }
+
+    .services {
+        background: none;
+        text-align: center;
+    }
+
+    .services__title {
+        max-width: none;
+    }
+
+    .services__title>h2::after {
+        margin: 20px auto 20px auto;
+    }
+
+    .services__title>p {
+        margin-bottom: 50px;
+    }
+
+    .services__card_margin {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .services__card {
+        margin: 20px 0;
+    }
+
+
+    .aboutme__card {
+        border: none;
+        padding: 0 20px;
+        height: auto;
+    }
+
+    .aboutme__cards {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .aboutme__title {
+        margin-bottom: 30px;
+    }
+
+
+}
+
+
+@media(max-width: 700px) {
+    .header__list {
+        /* display: block; */
+        width: 100%;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .header-nav {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 20px 0;
+        height: auto;
+    }
+
+    .header__link {
+        margin-top: 20px;
+        display: flex;
+    }
+
+    .header-content {
+        text-align: center;
+    }
+
+}
+
+@media(max-width: 650px) {
+    .header-content>h2 {
+        font-size: 40px;
+    }
+
+    .header-content {
+        height: auto;
+        padding: 100px 0;
+    }
+}
+
+@media(max-width: 500px) {
+    .header-content>p:first-of-type {
+        font-size: 24px;
+    }
+
+    .aboutme__title>p {
+        text-align: justify;
+    }
+
+
+    .header-content>p:last-of-type {
+        margin-bottom: 50px;
+    }
+}

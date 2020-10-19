@@ -1,0 +1,530 @@
+@import "fonts.css";
+
+/* ROOT START */
+
+* {
+    font-family: "Mon";
+    /* outline: 1px solid red; */
+}
+
+:root {
+    --brightBlack: #191919;
+    --green: #007d2f;
+    --darkBlack: #1d1d1d;
+    --white: #fff;
+    --grey: #787878;
+    --black: #000;
+    --titleBlack: #171717;
+    --milk: #f8f9f9;
+    --project_bg: #f5f5f5;
+    --footer_grey: #bcbcbc;
+    --footer_bg: #141414;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* ROOT END */
+/* =================================== */
+
+
+/* HEADER START */
+
+p {
+    margin-bottom: 0;
+}
+
+.logo {
+    width: 63px;
+    height: 65px;
+    object-fit: cover;
+}
+
+.header-nav__link {
+    color: var(--brightBlack);
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 9px;
+    display: flex;
+    margin-left: 33px;
+}
+
+.header-nav__link:hover {
+    color: var(--brightBlack);
+}
+
+.header-nav__link.active {
+    color: var(--green);
+}
+
+
+
+.header {
+    background: url(../img/header-bg.jpg) center center / cover no-repeat;
+}
+
+.header-nav__item {
+    margin-top: 70px;
+}
+
+.header__title {
+    color: var(--darkBlack);
+    font-size: 36px;
+    line-height: 32px;
+}
+
+.header__describtion {
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 24px;
+    color: var(--grey);
+    margin-bottom: 52px;
+}
+
+.header__link {
+    padding: 22px 57px 23px 45px;
+    background: var(--green);
+    line-height: 9px;
+    color: var(--white);
+    display: flex;
+    margin-top: 53px;
+}
+
+.header__link:hover {
+    color: var(--white);
+}
+
+.navbar-toggler:focus {
+    outline: 1px solid var(--darkBlack);
+}
+
+.header__link {
+    margin-top: 0;
+}
+
+/* HEADER END */
+/* =================================== */
+
+
+
+/* ABOUT START */
+/* =================================== */
+
+.about__title {
+    font-size: 34px;
+    color: var(--brightBlack);
+    line-height: 24px;
+    margin-bottom: 42px;
+
+}
+
+.about__describtion {
+    font-size: 14px;
+    color: var(--grey);
+    font-family: "Nun_R";
+    line-height: 21px;
+    margin-bottom: 50px;
+}
+
+.about {
+    padding: 95px 0 45px 0;
+}
+
+
+
+/* ABOUT END */
+/* =================================== */
+
+/* PROGRESS START */
+/* =================================== */
+
+.progress {
+    height: 3px;
+}
+
+.progress-bar1 {
+    width: 75%;
+    background: var(--green);
+}
+
+.progress-bar2 {
+    width: 90%;
+    background: var(--green);
+}
+
+.progress-bar3 {
+    width: 65%;
+    background: var(--green);
+}
+
+.progress__title {
+    font-size: 12px;
+    color: var(--black);
+    line-height: 9px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+.progress__title_margin {
+    margin-left: 15px;
+}
+
+.skills__title {
+    font-size: 30px;
+    line-height: 20px;
+}
+
+.skills__item2 {
+    width: 50%;
+}
+
+.skills__img {
+    object-fit: cover;
+}
+
+.skills {
+    background: var(--milk);
+}
+
+
+/* PROGRESS END */
+/* =================================== */
+
+
+/* MORE START*/
+/* =================================== */
+
+.more-card__img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.more {
+    background: var(--green);
+}
+
+.more-card__number {
+    font-size: 18px;
+    color: var(--white);
+    line-height: 12px;
+    margin-top: 10px;
+}
+
+.more-card__info {
+    font-size: 12px;
+    line-height: 9px;
+    color: var(--white);
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 80px;
+}
+
+.more {
+    padding: 75px 0 40px 0;
+}
+
+.more__img {
+    width: 25%;
+    object-fit: cover;
+}
+
+.more__subinfo {
+    font-size: 21px;
+    text-transform: uppercase;
+    line-height: 15px;
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    color: var(--white) !important;
+}
+
+/* MORE END */
+/* =================================== */
+
+/* WORK START */
+/* =================================== */
+
+.work__title {
+    font-size: 44px;
+    color: var(--brightBlack);
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.work__describtion {
+    font-size: 22px;
+    font-family: "Nun_R";
+    line-height: 33px;
+    color: var(--grey);
+}
+
+.work__item1 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work__button-press {
+    border: none;
+    color: var(--white);
+}
+
+.work__img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.work__button {
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background: var(--green);
+}
+
+.work {
+    padding-top: 100px;
+}
+
+
+
+/* WORK END */
+/* =================================== */
+
+
+
+/* EXPER START */
+/* =================================== */
+
+.exper-card__img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.exper-card__title {
+    font-size: 12px;
+    color: var(--brightBlack);
+    line-height: 9px;
+    text-transform: uppercase;
+    margin: 30px 0 15px 0;
+}
+
+.exper-card__subtitle {
+    font-size: 16px;
+    font-family: "Nun_R";
+    color: var(--grey);
+    line-height: 24px;
+}
+
+.exper-card {
+    margin-bottom: 55px;
+}
+
+.exper {
+    padding: 105px 0 100px 0;
+}
+/* EXPER END */
+/* =================================== */
+
+/* SLIDER START */
+/* =================================== */
+
+.slider__text {
+    font-size: 20px;
+    color: var(--white);
+    line-height: 30px;
+    margin-bottom: 40px;
+
+}
+
+.slider__subtext {
+    text-transform: uppercase;
+    color: var(--white);
+    font-size: 16px;
+    line-height: 11px;
+}
+
+.carousel-indicators {
+    position: initial !important;
+    margin: auto;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.slider {
+    background: var(--green);
+    padding: 195px 0 60px 0;
+}
+
+.slider__indicator {
+    width: 6px !important;
+    height: 6px !important;
+    border-radius: 50%;
+}
+
+.slider__indicator.active {
+    width: 15px !important;
+    height: 15px !important;
+}
+
+
+/* SLIDER END */
+/* =================================== */
+
+/* SPONSORS START */
+/* =================================== */
+
+.sponsors__img {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 65px;
+    object-fit: contain;
+}
+
+.sponsors {
+    padding: 65px 0;
+}
+
+/* SPONSORS END */
+/* =================================== */
+
+
+
+/* PROJECT START */
+/* =================================== */
+
+.project__inp_width_50 {
+    width: 350px;
+    height: 50px;
+    padding-left: 15px;
+    font-family: "Nun_R";
+    font-size: 15px;
+}
+
+
+.project__inp_width_100 {
+    width: 100%;
+    height: 50px;
+    padding-left: 15px;
+}
+
+.project__inp_height_100 {
+    width: 100%;
+    height: 30vh;
+    padding: 15px;
+    margin-top: 30px;
+    resize: none;
+}
+
+.project__inp {
+    background: var(--white);
+    border: none;
+}
+
+.project__inp_margin {
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+
+.project__inp_submit {
+    text-transform: uppercase;
+    color: var(--white);
+    background: var(--green);
+    width: 160px;
+    height: 55px;
+    font-size: 12px;
+    display: flex;
+    margin: 30px auto 0 auto;
+    justify-content: center;
+}
+
+.project__title {
+    font-size: 30px;
+    color: var(--darkBlack);
+    line-height: 27px;
+    margin-bottom: 30px;
+}
+
+.project__subtitle {
+    font-family: "Nun_R";
+    font-size: 16px;
+    color: var(--grey);
+    line-height: 24px;
+    margin-bottom: 38px;
+}
+
+.project {
+    padding: 30px 0 100px 0;
+    background: var(--project_bg);
+}
+
+
+
+/* PROJECT END */
+/* =================================== */
+
+
+
+
+/* FOOTER START */
+/* =================================== */
+
+.footer__title {
+    font-size: 18px;
+    color: var(--white);
+    line-height: 17px;
+    margin-bottom: 25px;
+}
+
+.footer__subtitle {
+    font-size: 15px;
+    color: var(--footer_grey);
+    line-height: 24px;
+}
+
+.footer__email {
+    font-family: "Nun_R";
+    font-size: 15px;
+    color: var(--footer_grey);
+    line-height: 14px;
+    margin-bottom: 11px;
+}
+
+.footer__number {
+    font-family: "Work";
+    font-size: 15px;
+    color: var(--footer_grey);
+    line-height: 10px;
+}
+
+.footer__menu {
+    list-style: none;
+}
+
+.footer__link {
+    font-family: "Nun_R";
+    font-size: 15px;
+    color: var(--footer_grey);
+    margin-bottom: 7px;
+    display: flex;    
+}
+
+.footer {
+    padding: 100px 0;
+    background: var(--footer_bg);
+}
+
+
+/* FOOTER END */
+/* =================================== */
+
+

@@ -1,0 +1,28 @@
+@font-face {
+    src: url(../fonts/Open_Sans/OpenSans-Regular.ttf);
+    font-family: "OS";
+    font-weight: 400;
+}
+
+@font-face {
+    src: url(../fonts/Open_Sans/OpenSans-Bold.ttf);
+    font-family: "OS";
+    font-weight: 700;
+}
+
+@font-face {
+    src: url(../fonts/Domine/Domine-Bold.ttf);
+    font-family: "Dom";
+    font-weight: 700;
+}
+
+@font-face {
+    src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+    font-family: "Mon-R";
+    font-weight: 400;
+}
+@font-face {
+    src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
+    font-family: "Mon-B";
+    font-weight: 700;
+}

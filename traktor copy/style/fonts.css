@@ -1,0 +1,23 @@
+@font-face {
+    src: url(../fonts/ProximaNova/ProximaNova-Reg.otf);
+    font-family: "Prox";
+    font-weight: 400;
+}
+
+@font-face {
+    src: url(../fonts/ProximaNova/ProximaNova-Black.otf);
+    font-family: "Prox";
+    font-weight: 900;
+}
+
+@font-face {
+    src: url(../fonts/ProximaNova/ProximaNova-Bold.otf);
+    font-family: "Prox";
+    font-weight: 700;
+}
+
+@font-face {
+    src: url(../fonts/ProximaNova/Condensed/ProximaNovaExCn-.otf);
+    font-family: "Prox";
+    font-weight: 800;
+}

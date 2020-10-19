@@ -1,0 +1,145 @@
+@media(max-width: 1199px) {
+    .skills__item {
+        text-align: center;
+        margin: 0 auto 50px auto;
+    }
+
+    .skills__img {
+        height: 50vh !important;
+    }
+    
+    .skills__item2 {
+        width: 100%;
+    }
+
+    .skills {
+        padding-top: 50px;
+    }
+
+    .project__inp_margin {
+        margin-left: 0;
+    }
+
+    .project__inp_width_50 {
+        margin: 0 auto 25px auto;
+        width: 100%;
+
+    }
+
+    
+
+
+}
+
+@media(max-width: 992px) {
+    .more__img {
+        width: 50%;
+    }
+
+    .work__item1 {
+        height: 50vh;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .footer__item2 {
+        margin-bottom: 50px;
+    }
+
+}
+
+@media(max-width: 767px) {
+    .header-nav__link {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    
+    .header-nav__item {
+        justify-content: center;
+        margin-top: 0;
+        text-align: center;
+    }
+    
+    .header__title {
+        margin: 0 auto 8px auto;
+    }
+
+    .header__link {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .skills__title {
+        line-height: 30px;
+    }
+
+    .more-card {
+        margin-top: 20px;
+    }
+
+    .more {
+        padding-top: 60px;
+    }
+}
+
+@media(max-width: 576px) {
+    .about__describtion {
+        text-align: justify;
+        margin-bottom: 20px;
+    }
+
+    .header__describtion {
+        text-align: justify;
+    }
+
+    .header__title {
+        line-height: 40px;
+    }
+
+    .about {
+        padding: 40px 0;
+    }
+
+    .progress__title {
+        line-height: 15px;
+    }
+
+    .skills__title {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .more__img {
+        width: 100%;
+    }
+
+    .work__title {
+        line-height: 35px;
+    }
+
+    .slider__text {
+        text-align: justify;
+    }
+
+    .slider {
+        padding-top: 50px;
+    }
+
+    .project__inp_width_50 {
+        width: 100%;
+    }
+    
+}
+
+@media(max-width: 330px) {
+    .footer__item3 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__menu {
+        padding-left: 0;
+    }
+}
